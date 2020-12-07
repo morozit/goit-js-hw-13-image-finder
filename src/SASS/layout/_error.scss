@@ -1,0 +1,33 @@
+.error {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  opacity: 0.9;
+  padding: 10px 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .material-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: palevioletred;
+    padding: 10px;
+    border-radius: 8px;
+    > :first-child {
+      margin-right: 10px;
+    }
+  }
+  .material-icon-error:after {
+    content: 'error';
+    color: red;
+    font-family: Material Icons;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+  }
+}
